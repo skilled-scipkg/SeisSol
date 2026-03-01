@@ -1,0 +1,502 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "seissol",
+  "evidence": {
+    "core_skills": [
+      "seissol-inputs-and-modeling",
+      "seissol-build-and-install",
+      "seissol-getting-started",
+      "seissol-analysis-and-output",
+      "seissol-parallel-hpc",
+      "seissol-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/seissol-inputs-and-modeling.md",
+      "skills/.evidence/seissol-build-and-install.md",
+      "skills/.evidence/seissol-getting-started.md",
+      "skills/.evidence/seissol-analysis-and-output.md",
+      "skills/.evidence/seissol-parallel-hpc.md",
+      "skills/.evidence/seissol-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/seissol-advanced-topics/SKILL.md",
+        "skills/seissol-advanced-topics/references/doc_map.md",
+        "skills/seissol-advanced-topics/references/source_map.md",
+        "skills/seissol-analysis-and-output/SKILL.md",
+        "skills/seissol-behind-firewall/SKILL.md",
+        "skills/seissol-behind-firewall/references/doc_map.md",
+        "skills/seissol-behind-firewall/references/source_map.md",
+        "skills/seissol-build-and-install/SKILL.md",
+        "skills/seissol-checkpointing/SKILL.md",
+        "skills/seissol-checkpointing/references/doc_map.md",
+        "skills/seissol-checkpointing/references/source_map.md",
+        "skills/seissol-code-of-conduct/SKILL.md",
+        "skills/seissol-code-of-conduct/references/doc_map.md",
+        "skills/seissol-code-of-conduct/references/source_map.md",
+        "skills/seissol-configuration/SKILL.md",
+        "skills/seissol-configuration/references/doc_map.md",
+        "skills/seissol-configuration/references/source_map.md",
+        "skills/seissol-examples-and-tutorials/SKILL.md",
+        "skills/seissol-fault-tagging/SKILL.md",
+        "skills/seissol-fault-tagging/references/doc_map.md",
+        "skills/seissol-fault-tagging/references/source_map.md",
+        "skills/seissol-frontera/SKILL.md",
+        "skills/seissol-frontera/references/doc_map.md",
+        "skills/seissol-frontera/references/source_map.md",
+        "skills/seissol-general/SKILL.md",
+        "skills/seissol-general/references/doc_map.md",
+        "skills/seissol-general/references/source_map.md",
+        "skills/seissol-getting-started/SKILL.md",
+        "skills/seissol-heisenbug/SKILL.md",
+        "skills/seissol-heisenbug/references/doc_map.md",
+        "skills/seissol-heisenbug/references/source_map.md",
+        "skills/seissol-index/SKILL.md",
+        "skills/seissol-initial-condition/SKILL.md",
+        "skills/seissol-initial-condition/references/doc_map.md",
+        "skills/seissol-initial-condition/references/source_map.md",
+        "skills/seissol-inputs-and-modeling/SKILL.md",
+        "skills/seissol-local-timestepping/SKILL.md",
+        "skills/seissol-local-timestepping/references/doc_map.md",
+        "skills/seissol-local-timestepping/references/source_map.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/SKILL.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/references/doc_map.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/references/source_map.md",
+        "skills/seissol-memory-requirements/SKILL.md",
+        "skills/seissol-memory-requirements/references/doc_map.md",
+        "skills/seissol-memory-requirements/references/source_map.md",
+        "skills/seissol-meshing-with-pumgen/SKILL.md",
+        "skills/seissol-meshing-with-pumgen/references/doc_map.md",
+        "skills/seissol-meshing-with-pumgen/references/source_map.md",
+        "skills/seissol-parallel-hpc/SKILL.md",
+        "skills/seissol-parameter-file/SKILL.md",
+        "skills/seissol-parameter-file/references/doc_map.md",
+        "skills/seissol-parameter-file/references/source_map.md",
+        "skills/seissol-point-source-older-implementation/SKILL.md",
+        "skills/seissol-point-source-older-implementation/references/doc_map.md",
+        "skills/seissol-point-source-older-implementation/references/source_map.md",
+        "skills/seissol-related-publications/SKILL.md",
+        "skills/seissol-related-publications/references/doc_map.md",
+        "skills/seissol-related-publications/references/source_map.md",
+        "skills/seissol-remeshing-the-topography/SKILL.md",
+        "skills/seissol-remeshing-the-topography/references/doc_map.md",
+        "skills/seissol-remeshing-the-topography/references/source_map.md",
+        "skills/seissol-reproducible-research/SKILL.md",
+        "skills/seissol-reproducible-research/references/doc_map.md",
+        "skills/seissol-reproducible-research/references/source_map.md",
+        "skills/seissol-requirements/SKILL.md",
+        "skills/seissol-requirements/references/doc_map.md",
+        "skills/seissol-requirements/references/source_map.md",
+        "skills/seissol-simulation-workflows/SKILL.md",
+        "skills/seissol-simulation-workflows/references/doc_map.md",
+        "skills/seissol-simulation-workflows/references/source_map.md",
+        "skills/seissol-standard-rupture-format/SKILL.md",
+        "skills/seissol-standard-rupture-format/references/doc_map.md",
+        "skills/seissol-standard-rupture-format/references/source_map.md",
+        "skills/seissol-tpv13/SKILL.md",
+        "skills/seissol-tpv13/references/doc_map.md",
+        "skills/seissol-tpv13/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/seissol-behind-firewall/SKILL.md",
+        "skills/seissol-behind-firewall/references/doc_map.md",
+        "skills/seissol-behind-firewall/references/source_map.md",
+        "skills/seissol-checkpointing/SKILL.md",
+        "skills/seissol-checkpointing/references/doc_map.md",
+        "skills/seissol-checkpointing/references/source_map.md",
+        "skills/seissol-code-of-conduct/SKILL.md",
+        "skills/seissol-code-of-conduct/references/doc_map.md",
+        "skills/seissol-code-of-conduct/references/source_map.md",
+        "skills/seissol-configuration/SKILL.md",
+        "skills/seissol-configuration/references/doc_map.md",
+        "skills/seissol-configuration/references/source_map.md",
+        "skills/seissol-fault-tagging/SKILL.md",
+        "skills/seissol-fault-tagging/references/doc_map.md",
+        "skills/seissol-fault-tagging/references/source_map.md",
+        "skills/seissol-frontera/SKILL.md",
+        "skills/seissol-frontera/references/doc_map.md",
+        "skills/seissol-frontera/references/source_map.md",
+        "skills/seissol-general/SKILL.md",
+        "skills/seissol-general/references/doc_map.md",
+        "skills/seissol-general/references/source_map.md",
+        "skills/seissol-heisenbug/SKILL.md",
+        "skills/seissol-heisenbug/references/doc_map.md",
+        "skills/seissol-heisenbug/references/source_map.md",
+        "skills/seissol-initial-condition/SKILL.md",
+        "skills/seissol-initial-condition/references/doc_map.md",
+        "skills/seissol-initial-condition/references/source_map.md",
+        "skills/seissol-local-timestepping/SKILL.md",
+        "skills/seissol-local-timestepping/references/doc_map.md",
+        "skills/seissol-local-timestepping/references/source_map.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/SKILL.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/references/doc_map.md",
+        "skills/seissol-manually-fixing-an-intersection-in-gocad/references/source_map.md",
+        "skills/seissol-memory-requirements/SKILL.md",
+        "skills/seissol-memory-requirements/references/doc_map.md",
+        "skills/seissol-memory-requirements/references/source_map.md",
+        "skills/seissol-meshing-with-pumgen/SKILL.md",
+        "skills/seissol-meshing-with-pumgen/references/doc_map.md",
+        "skills/seissol-meshing-with-pumgen/references/source_map.md",
+        "skills/seissol-parameter-file/SKILL.md",
+        "skills/seissol-parameter-file/references/doc_map.md",
+        "skills/seissol-parameter-file/references/source_map.md",
+        "skills/seissol-point-source-older-implementation/SKILL.md",
+        "skills/seissol-point-source-older-implementation/references/doc_map.md",
+        "skills/seissol-point-source-older-implementation/references/source_map.md",
+        "skills/seissol-related-publications/SKILL.md",
+        "skills/seissol-related-publications/references/doc_map.md",
+        "skills/seissol-related-publications/references/source_map.md",
+        "skills/seissol-remeshing-the-topography/SKILL.md",
+        "skills/seissol-remeshing-the-topography/references/doc_map.md",
+        "skills/seissol-remeshing-the-topography/references/source_map.md",
+        "skills/seissol-reproducible-research/SKILL.md",
+        "skills/seissol-reproducible-research/references/doc_map.md",
+        "skills/seissol-reproducible-research/references/source_map.md",
+        "skills/seissol-requirements/SKILL.md",
+        "skills/seissol-requirements/references/doc_map.md",
+        "skills/seissol-requirements/references/source_map.md",
+        "skills/seissol-standard-rupture-format/SKILL.md",
+        "skills/seissol-standard-rupture-format/references/doc_map.md",
+        "skills/seissol-standard-rupture-format/references/source_map.md",
+        "skills/seissol-tpv13/SKILL.md",
+        "skills/seissol-tpv13/references/doc_map.md",
+        "skills/seissol-tpv13/references/source_map.md"
+      ],
+      "modified": [
+        "skills/seissol-advanced-topics/SKILL.md",
+        "skills/seissol-advanced-topics/references/doc_map.md",
+        "skills/seissol-advanced-topics/references/source_map.md",
+        "skills/seissol-analysis-and-output/SKILL.md",
+        "skills/seissol-build-and-install/SKILL.md",
+        "skills/seissol-examples-and-tutorials/SKILL.md",
+        "skills/seissol-getting-started/SKILL.md",
+        "skills/seissol-index/SKILL.md",
+        "skills/seissol-inputs-and-modeling/SKILL.md",
+        "skills/seissol-parallel-hpc/SKILL.md",
+        "skills/seissol-simulation-workflows/SKILL.md",
+        "skills/seissol-simulation-workflows/references/doc_map.md",
+        "skills/seissol-simulation-workflows/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/seissol-advanced-topics/references/doc_map.md",
+        "skills/seissol-advanced-topics/references/source_map.md",
+        "skills/seissol-analysis-and-output/references/doc_map.md",
+        "skills/seissol-analysis-and-output/references/source_map.md",
+        "skills/seissol-build-and-install/references/doc_map.md",
+        "skills/seissol-build-and-install/references/source_map.md",
+        "skills/seissol-examples-and-tutorials/references/doc_map.md",
+        "skills/seissol-examples-and-tutorials/references/source_map.md",
+        "skills/seissol-getting-started/SKILL.md",
+        "skills/seissol-getting-started/references/doc_map.md",
+        "skills/seissol-getting-started/references/source_map.md",
+        "skills/seissol-index/SKILL.md",
+        "skills/seissol-inputs-and-modeling/references/doc_map.md",
+        "skills/seissol-inputs-and-modeling/references/source_map.md",
+        "skills/seissol-parallel-hpc/references/doc_map.md",
+        "skills/seissol-parallel-hpc/references/source_map.md",
+        "skills/seissol-simulation-workflows/SKILL.md",
+        "skills/seissol-simulation-workflows/references/doc_map.md",
+        "skills/seissol-simulation-workflows/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/seissol-advanced-topics/references/doc_map.md",
+        "skills/seissol-advanced-topics/references/source_map.md",
+        "skills/seissol-analysis-and-output/references/doc_map.md",
+        "skills/seissol-analysis-and-output/references/source_map.md",
+        "skills/seissol-build-and-install/references/doc_map.md",
+        "skills/seissol-build-and-install/references/source_map.md",
+        "skills/seissol-examples-and-tutorials/references/doc_map.md",
+        "skills/seissol-examples-and-tutorials/references/source_map.md",
+        "skills/seissol-getting-started/SKILL.md",
+        "skills/seissol-getting-started/references/doc_map.md",
+        "skills/seissol-getting-started/references/source_map.md",
+        "skills/seissol-index/SKILL.md",
+        "skills/seissol-inputs-and-modeling/references/doc_map.md",
+        "skills/seissol-inputs-and-modeling/references/source_map.md",
+        "skills/seissol-parallel-hpc/references/doc_map.md",
+        "skills/seissol-parallel-hpc/references/source_map.md",
+        "skills/seissol-simulation-workflows/SKILL.md",
+        "skills/seissol-simulation-workflows/references/doc_map.md",
+        "skills/seissol-simulation-workflows/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Tutorial and cookbook guidance is primarily in docs/*.rst.",
+      "Local example inputs are available under preprocessing/meshing/gmsh_example.",
+      "Many full benchmark examples are referenced from the external SeisSol/Examples repository."
+    ],
+    "package_name": "seissol",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "app",
+      "codegen",
+      "preprocessing",
+      "postprocessing"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs",
+      "preprocessing/meshing/gmsh_example"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol",
+  "run_id": "compile_20260301T010203808666Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "seissol-advanced-topics",
+      "seissol-analysis-and-output",
+      "seissol-behind-firewall",
+      "seissol-build-and-install",
+      "seissol-checkpointing",
+      "seissol-code-of-conduct",
+      "seissol-configuration",
+      "seissol-examples-and-tutorials",
+      "seissol-fault-tagging",
+      "seissol-frontera",
+      "seissol-general",
+      "seissol-getting-started",
+      "seissol-heisenbug",
+      "seissol-index",
+      "seissol-initial-condition",
+      "seissol-inputs-and-modeling",
+      "seissol-local-timestepping",
+      "seissol-manually-fixing-an-intersection-in-gocad",
+      "seissol-memory-requirements",
+      "seissol-meshing-with-pumgen",
+      "seissol-parallel-hpc",
+      "seissol-parameter-file",
+      "seissol-point-source-older-implementation",
+      "seissol-related-publications",
+      "seissol-remeshing-the-topography",
+      "seissol-reproducible-research",
+      "seissol-requirements",
+      "seissol-simulation-workflows",
+      "seissol-standard-rupture-format",
+      "seissol-tpv13"
+    ],
+    "core_skill_ids": [
+      "seissol-inputs-and-modeling",
+      "seissol-build-and-install",
+      "seissol-getting-started",
+      "seissol-analysis-and-output",
+      "seissol-parallel-hpc",
+      "seissol-examples-and-tutorials"
+    ],
+    "deferred_gaps": [
+      "Most full benchmark/tutorial input sets are external (SeisSol/Examples) and should be linked but not assumed local.",
+      "Generated long-tail one-doc topics should be merged into advanced-topics during pass 3 audit.",
+      "Topic source-map ranking should be rechecked after multi-root source_dirs generation."
+    ],
+    "goal": "Execute pass 2 targeted skill generation/enrichment and pass 3 audit for SeisSol docs-first workflows.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "intent routing across build/run/modeling/HPC/output",
+          "docs-first then source escalation policy"
+        ],
+        "reason": "All requests should route through a stable docs-first index before topic deep-dives.",
+        "skill_id": "seissol-index",
+        "source_hints": [
+          "docs/index.rst",
+          "docs/basic-code-structure.rst",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "first run path",
+          "minimal setup assumptions",
+          "where tutorials and cookbook entries start"
+        ],
+        "reason": "Fast onboarding is the highest-frequency user path and anchors all later workflows.",
+        "skill_id": "seissol-getting-started",
+        "source_hints": [
+          "docs/introduction.rst",
+          "docs/a-first-example.rst",
+          "docs/cookbook-overview.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "dependencies and configuration",
+          "architecture-specific build flags",
+          "known build failure triage"
+        ],
+        "reason": "Build setup failures are a primary blocker and need an explicit, high-signal playbook.",
+        "skill_id": "seissol-build-and-install",
+        "source_hints": [
+          "docs/build-overview.rst",
+          "docs/build-dependencies.rst",
+          "docs/build-parameters.rst",
+          "docs/build-problems.rst",
+          "CMakeLists.txt"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "parameter-file structure and key namelists",
+          "material/source/initial-condition setup",
+          "dynamic rupture and friction model entry points"
+        ],
+        "reason": "Parameterization and physical-model inputs dominate correctness for scientific runs.",
+        "skill_id": "seissol-inputs-and-modeling",
+        "source_hints": [
+          "docs/parameter-file.rst",
+          "docs/physical-models.rst",
+          "docs/dynamic-rupture.rst",
+          "src/Initializer",
+          "src/Model",
+          "src/SourceTerm"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "run commands and runtime controls",
+          "checkpoint/restart flow",
+          "core output expectations during execution"
+        ],
+        "reason": "Users need repeatable run/restart/checkpoint workflows after setup is complete.",
+        "skill_id": "seissol-simulation-workflows",
+        "source_hints": [
+          "docs/build-run.rst",
+          "docs/checkpointing.rst",
+          "src/Solver",
+          "app/Main"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/OpenMP placement and environment variables",
+          "GPU build/run knobs",
+          "cluster script patterns and scaling interpretation"
+        ],
+        "reason": "SeisSol usage is HPC-centric, so MPI/OpenMP/GPU and scheduler guidance is critical.",
+        "skill_id": "seissol-parallel-hpc",
+        "source_hints": [
+          "docs/gpus.rst",
+          "docs/environment-variables.rst",
+          "docs/scaling.rst",
+          "docs/supermuc.rst",
+          "src/Parallel"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "fault/free-surface/wavefield/receiver outputs",
+          "postprocessing and visualization handoff",
+          "validation hooks tied to tests and benchmarks"
+        ],
+        "reason": "Postprocessing and output interpretation are required to validate simulation quality.",
+        "skill_id": "seissol-analysis-and-output",
+        "source_hints": [
+          "docs/postprocessing-and-visualization.rst",
+          "docs/fault-output.rst",
+          "docs/wave-field-output.rst",
+          "src/ResultWriter",
+          "postprocessing"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "seissol-simulation-workflows",
+      "seissol-parallel-hpc",
+      "seissol-inputs-and-modeling",
+      "seissol-getting-started",
+      "seissol-examples-and-tutorials",
+      "seissol-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-simulation-workflows/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-simulation-workflows/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/seissol-seissol/skills/seissol-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "seissol-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "seissol-index",
+      "seissol-getting-started",
+      "seissol-build-and-install",
+      "seissol-inputs-and-modeling",
+      "seissol-simulation-workflows",
+      "seissol-parallel-hpc",
+      "seissol-analysis-and-output"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 109,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
